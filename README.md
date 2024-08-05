@@ -1,9 +1,9 @@
 This repository is used to validate [xamarin-macios](https://github.com/xamarin/xamarin-macios) pull request artifacts
 
 # Instructions for use:
-1. Clone the respoitory locally.
+1. Clone the repository locally.
 1. Run the `./init.ps1` script<br/>
-	[optional] Use the `-Version` parameter to specifyt the version of .NET to install e.g. "8.0", defaults to "9.0"
+	[optional] Use the `-Version` parameter to specify the version of .NET to install e.g. "8.0", defaults to "9.0"
 1. Download the `not-signed-package` artifact from the PR Build to validate<br/> 
 	[optional] copy it into the `downloads` folder of the repository
 1. Download the `WorkloadRollback` artifact from the PR Build to validate<br/>
